@@ -100,13 +100,8 @@ print("person can live",31536000*100)
 # 3 1 3 9 27
 # 4 1 4 16 64
 # 5 1 5 25 125
-
 for i in range(1,6):
-    print("\n")
-    for_one_time = 0
+    print(i,"\n")
     for j in range(4):
-        if for_one_time==0:
-            print(i,end=" ")
-        for_one_time = 1
-        print(i**j,end=" ")  #write more optimise code
+        print(i**j,end=" ")
  
