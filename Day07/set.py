@@ -18,6 +18,12 @@ print(it_companies)
 A ={1,2,3}
 B ={4,5,3}
 print(A.intersection(B)) #intersection
+print(A.issubset(B))
+print(A.isdisjoint(B))
 A = A.union(B) #Joining Sets
 
 print(A)
+
+#symetric difference # it means (A\B)∪(B\A)
+print(A.symmetric_difference(B))
+del A
